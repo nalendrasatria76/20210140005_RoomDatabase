@@ -1,4 +1,10 @@
 package com.example.roomsiswa
 
-class AplikasiSiswa {
-}
+import android.app.Application
+
+class AplikasiSiswa : Application() {
+    /**
+     * AppContainer instance digunakan oleh kelas-kelas lainnya untuk mendapatkan dependensi
+     */
+    }
+
